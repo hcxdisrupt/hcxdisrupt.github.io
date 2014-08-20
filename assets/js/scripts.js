@@ -141,7 +141,7 @@ $(document).ready( function(){
  *****************************************************/
 $(document).ready( function(){
 	
-	var google_analytics_id = '';  // Enter your ID here. like this: UA-2121212-22
+	var google_analytics_id = 'UA-48390919-1';  // Enter your ID here. like this: UA-2121212-22
 		  
 		  if(google_analytics_id != '') {
 			  var _gaq = _gaq || [];
