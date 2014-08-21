@@ -725,6 +725,9 @@ a, a:hover, a:focus {
 	}
 	
 	.content-block {
+        background-image: 
+            url('/assets/img/bg.jpg');
+        background-position: center; 
 		padding-left: 3px !important;
 	}
 	
