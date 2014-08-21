@@ -501,10 +501,7 @@ a, a:hover, a:focus {
  *****************************************************************/
 @media only screen and (max-width: 1200px) {
 	
-	#footer {
-		display: none !important;
-	}
-	
+
 }
 
 @media only screen and (max-width: 768px) {
@@ -525,6 +522,11 @@ a, a:hover, a:focus {
 	#overlay-about .container {
 		margin-bottom: 70px;
 	}
+    
+    #footer {
+		display: none !important;
+	}
+	
 	
 }
 
