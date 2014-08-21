@@ -412,7 +412,6 @@ a, a:hover, a:focus {
 
 .subscribe-form {
 	display: inline-block;
-	border: rgba(255, 255, 255, 0.4) 4px solid;
 	max-width: 500px;
 	background: rgba(255, 255, 255, 0.4);
 }
@@ -436,7 +435,7 @@ a, a:hover, a:focus {
 	border: 0;
 	border-radius: 0px !important;
 	box-shadow: none;
-	background: #222;
+	background: #00a80d;
 	font-weight: 700;
 	text-transform: uppercase;
 	transition: all 0.3s ease 0s;
@@ -447,7 +446,7 @@ a, a:hover, a:focus {
 
 .subscribe-form button:hover {
 	outline: none;
-	background: #999;
+	background: #00800a;
 }
 
 .subscribe-form button:focus,.subscribe-form button:active {
