@@ -39,7 +39,7 @@ $(document).ready( function(){
 	$('#slider').cycle({
 		fx : 'fade',
 		timeout: 5500,
-		speed: 500,
+		speed: 700,
 		slides: '.slide'
 	});
 	
