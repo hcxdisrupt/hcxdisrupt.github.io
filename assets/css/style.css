@@ -1,5 +1,54 @@
+.body p {
+	color: white;
+	font-weight: 300;
+	letter-spacing: 0.6px;
+	font-size: 0.9em;
+}
 
+.how-header {
+	margin: 25px 0;
+}
 
+.showcase {
+	max-width: 550px;
+	width: 100%;
+}
+
+.main-info {
+	float: left;
+	width: 100%;
+	margin-top: 50px;
+	max-width: 900px;
+	padding-bottom: 85px;
+}
+
+.main-info > header {
+	padding-bottom: 20px;
+}
+
+.main-info h3 {
+	font-size: 1.4em;
+	letter-spacing: 1px;
+	margin-bottom: 20px;
+}
+
+.main-info .about p {
+	font-family: 'Open Sans', sans-serif;
+	color: #FFF;
+	text-transform: none;
+	font-weight: 300;
+	font-size: 0.9em;
+	letter-spacing: 0.3px;
+}
+
+#tc-img {
+	width: 100%;
+	max-width: none;
+}
+
+a:focus {
+	outline: 0;
+}
 
 /** 1. TYPOGRAPHY
  *****************************************************************/
@@ -237,11 +286,12 @@ a, a:hover, a:focus {
 }
 
 .content-block {
+	margin-top: 10%;
 	opacity: 0;
 	padding-left: 50px !important;
 	overflow: hidden !important;
-	display: table-cell;
-    vertical-align: middle !important;
+	/*display: table-cell;*/
+    /*vertical-align: middle !important;*/
 	text-align: left;
 	text-transform: uppercase;
 	width: 100%;
@@ -285,7 +335,7 @@ a, a:hover, a:focus {
 	letter-spacing:0.5px;
 	color: #fff;
 	font-family: 'Montserrat', sans-serif;
-	font-weight: 400 !important;
+	font-weight: 400;
 }
 
 .content-block h1 {
@@ -331,7 +381,7 @@ a, a:hover, a:focus {
 #footer {
 	display: none;
 	background: rgba(0,0,0,1) !important;
-	position: absolute;
+	position: fixed;
 	overflow: hidden;
 	bottom: 0;
 	width: 100%;
@@ -379,11 +429,12 @@ a, a:hover, a:focus {
 
 
 #close-overlay {
-	width: 80px;
-	height: 80px;
+	width: 60px;
+	height: 60px;
 	overflow: hidden;
 	border: none;
 	background: url(../img/cross.png) no-repeat center center;
+	background-size: 30px;
 	color: rgba(0, 0, 0, 0);
 	outline: none;
 }
@@ -392,7 +443,7 @@ a, a:hover, a:focus {
  *****************************************************************/
 #overlay-about .container {
 	text-align: center;
-	margin-top: 8%;
+	margin-top: 4%;
 }
 
 #overlay-about h1 {
@@ -401,7 +452,7 @@ a, a:hover, a:focus {
 }
 
 #overlay-about p {
-	max-width: 600px;
+	max-width: 550px;
 	margin: 0 auto 30px;
 	text-align: center;
 }

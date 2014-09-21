@@ -49,7 +49,7 @@ $(document).ready( function(){
  *****************************************************/
 $(document).ready( function(){
 
-	var openBtn = ( '#open-overlay' ),
+	var openBtn = ( '.open-overlay .action.open' ),
 	    closeBtn = ( '#close-overlay' ),
 		
 		openBtnContact = ( '#open-contact' ),
